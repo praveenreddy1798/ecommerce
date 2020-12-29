@@ -341,7 +341,7 @@ a{
 		padding: 5px;
 	}
 	.col-6 {
-		width: 100%;
+		width: 50%;
 	}
 	.col-9 {
 		width: 100%;
@@ -360,6 +360,7 @@ a{
 .cart-responsive-name
   {
   text-align: center !important;
+  padding-left: 30px!important;
 }
 .cart-responsive-image
   {
@@ -369,11 +370,14 @@ a{
 .cart-responsive-totalPrice{
   text-align: center !important;
 }
+.cart-responsive-delete{
+  margin-top: 10px !important;
+}
 .pr-6{
   padding: none !important;
 }
 .-ml-10{
-  padding: none !important;
+  margin: none !important;
 }
 .pl-5{
   padding: none !important;
@@ -381,6 +385,29 @@ a{
 .product-image{
   height: 200px;
 }
+.mt-20{
+  margin: none;
+}
+.ml-20{
+  margin: none ;
+}
+.ml-10{
+  margin: none!important ;
+}
+/* .actual-price{
+  text-align: left!important;
+  font-size: 14px;
+}
+.product-price{
+  padding-left: 12px;
+}
+.product-discount-price{
+  padding: 5px!important;
+  text-align: center !important;
+  padding-right: 20px!important;
+} */
+
+
 
 }
 

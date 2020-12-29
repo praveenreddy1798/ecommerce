@@ -59,7 +59,7 @@ function Cart() {
                 </div>
                 </div>
                 <div className="col-2"> 
-                <div className="cart-delete ml-20" >
+                <div className="cart-delete cart-responsive-delete ml-20" >
                 <BsFillBackspaceFill onClick={()=>dispatch({type:'REMOVE',payload:product.id})} />
                 </div>
                 </div>
